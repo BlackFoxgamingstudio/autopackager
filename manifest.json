@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "package_id": "PKG-019",
+  "slug": "autopackager",
+  "name": "sovereign-autopackager",
+  "domain": "Meta-Engineering & DevOps Tooling",
+  "version": "1.0.0",
+  "status": "PRODUCTION_READY",
+  "entrypoint": "src/core.py",
+  "cli_command": "sovereign-autopackager",
+  "microservice_port": 8797,
+  "n8n_webhook_path": "autopackager-trigger",
+  "n8n_workflow": "n8n/workflow.json",
+  "test_suite": "tests/test_solution.py",
+  "author": "Russell Alan Powers",
+  "license": "MIT"
+}
